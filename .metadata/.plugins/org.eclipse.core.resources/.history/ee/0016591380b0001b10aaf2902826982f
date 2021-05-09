@@ -5,7 +5,7 @@ public class ClassA {
 	int Salary;
 	String Name;
 	String OrgName;
-	public int Sal;
+	public int TotalSal;
 	
 	public void Display() {
 		System.out.println("Name of the Employee: "+Name);
@@ -15,9 +15,11 @@ public class ClassA {
 	
 	public  int salary_deduction(int sal1,int sal2) {
 		
-		Sal=sal2-sal1;
-		System.out.println("Total sal deduted :" + Sal);
-		return Sal;
+		TotalSal=sal1+sal2;
+		
+		
+	
+		return TotalSal;
 		
 	}
 	

@@ -17,6 +17,9 @@ public class ClassA {
 		
 		Sal=sal2-sal1;
 		System.out.println("Total sal deduted :" + Sal);
+		
+		
+	
 		return Sal;
 		
 	}

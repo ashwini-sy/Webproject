@@ -11,7 +11,7 @@ public class RunnerClass {
 		emp1.Salary=1200;
 		
 		emp1.Display();
-		emp1.salary_deduction(45000,50000);
+		System.out.println(emp1.salary_deduction(45000,50000));
 
 	}
 
