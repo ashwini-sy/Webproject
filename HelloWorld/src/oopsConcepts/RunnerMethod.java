@@ -29,6 +29,17 @@ public class RunnerMethod {
 		AbstractChild.method3();
 		AbstractExample.method4();
 		AbstractChild.method4();
+		
+		//Interface concept
+		Interfacechild obj4=new Interfacechild();
+		InterfaceEx.method3();
+		
+		
+		//Encapusulation concept
+		EncapsulationEx obj5=new EncapsulationEx();
+		obj5.setEmpname("Ash");
+		System.out.println(obj5.getEmpname());
+		System.out.println(obj5.getOrgname());
 	
 
 	}

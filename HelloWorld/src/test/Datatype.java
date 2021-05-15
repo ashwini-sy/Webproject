@@ -7,6 +7,7 @@ public class Datatype {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//----Printing string
+		
 		System.out.println("Hello world");
 	//-----Datatype in java
 		int n1=10;
