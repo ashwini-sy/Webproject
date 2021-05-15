@@ -5,6 +5,7 @@ public class MethodOverrideParent {
 	{
 		System.out.println("Inside the Parent");
 	}
+	
 	public void display(int a)
 	{
 		System.out.println("Inside the parent with integer  :"+ a);

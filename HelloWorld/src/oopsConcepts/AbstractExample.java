@@ -7,6 +7,7 @@ public   abstract class AbstractExample {
 		System.out.println("Inside Method1");
 	}
 	
+	
 	public  abstract void method2();
 	
 	public static void method4()

@@ -20,9 +20,7 @@ public class RunnerMethod {
 		//Method Overriding
 		MethodOverrideChild  obj2=new MethodOverrideChild();
 		obj2.display();
-		obj2.display(1);
-		
-		
+		obj2.display(1);		
 		//Abstract Concepts:
 		
 		AbstractChild obj3=new AbstractChild();
