@@ -20,8 +20,6 @@ public class ExceptionEx {
 		}catch(Exception e)
 		{
 			System.out.println("Expection handled");
-		}finally{
-			System.out.print("TRY-CATCH BLOCK EXECUTED SUCCESSFULLYY");
 		}
 	//NULLPOINTER EXPCETION	
 		ExceptionEx obj=null;
@@ -29,7 +27,7 @@ public class ExceptionEx {
 		obj.dispaly();
 		}catch(NullPointerException e)
 		{
-			System.out.println("null Pointer Exception hANDLED");
+			System.out.println("Null Pointer Exception HANDLED");
 			
 		}
 		//INDEXOUTOFBOUND EXCEPTION
